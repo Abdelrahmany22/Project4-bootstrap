@@ -1,0 +1,230 @@
+.section1 {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    font-weight: bold !important;
+    color: black !important;
+    transition: all 0.5s;
+
+}
+
+a:hover {
+    color: orangered !important;
+}
+
+.nav-item {
+    padding: 5px !important;
+}
+
+.left {
+    background-image: url(../img/top-left-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 89vh;
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 14%;
+    text-align: center;
+}
+
+.content h4 {
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.content a {
+    text-decoration: none !important;
+    color: orangered !important;
+    font-weight: bold !important;
+    font-size: small;
+}
+
+.right img {
+    height: 89vh !important;
+}
+
+.right {
+    width: 100% !important;
+    height: 89vh !important;
+}
+
+@media(max-width: 768px) {
+    .content {
+
+        left: 31%;
+
+    }
+
+}
+
+@media(max-width: 426px) {
+    .content {
+        top: 14%;
+        left: 15%;
+
+    }
+
+    .left {
+        height: 50vh;
+    }
+
+    .content h4 {
+        font-size: 45px;
+    }
+
+    .navbar-brand img {
+        width: 122px;
+    }
+}
+
+/* ====================================sec2=============== */
+.section2 {
+    height: auto;
+    padding-bottom: 50px;
+}
+
+s {
+    color: orangered;
+    text-decoration: none;
+}
+
+s::before {
+    content: "______";
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+/* =========================sec3=============== */
+.section3 {
+    background-color: rgba(248, 211, 199, 0.466);
+    padding-bottom: 120px !important;
+}
+
+.card-img-overlay {
+    background-color: orangered !important;
+}
+
+.section3 .card {
+    position: relative;
+    overflow: hidden;
+    height: 300px !important;
+}
+
+.section3 .card img{
+    width: 110% !important;
+    height: 90%;
+}
+.section3 .price {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+}
+
+h6 {
+    font-size: 13px;
+}
+
+.taht {
+    position: absolute;
+    top: 80%;
+    transition: all 1s;
+}
+.taht:hover{
+    top: 30%;
+}
+/* ===============================sec4=================== */
+.section4{
+    height: auto;
+    padding-bottom: 130px;
+}
+.section4 .card{
+    overflow: hidden;
+    transition: all 1s;
+}
+.section4 .card:hover{
+color: orangered;
+}
+/* ================================sec5================== */
+.section5{
+    height:auto;
+    padding-bottom: 130px;
+    background-image: url(../img/reservation-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.section5 s{
+    color: white;
+}
+.section5 h3{
+    color: white;
+}
+.section5 .p{
+    background-color: white;
+}
+.mess{
+    height: 140px;
+}
+@media(max-width: 426px) {
+.section5 .p p{
+    font-size: 11px;
+}
+}
+/* ==========================sec6============== */
+.section6{
+    height: auto;
+    padding-bottom: 60px;
+}
+.section6 .card{
+    position: relative;
+}
+.section6 .card .price{
+    /* position: absolute;
+    right: 0px;
+    top: 0px; */
+    display: block;
+    width: 70px;
+    height: 50px;
+    background-color: orangered;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+ 
+}
+/* .section6 .card img{
+    position: absolute;
+    left: 0px;
+    width: 150px;
+    height: 150px;
+} */
+/* ====================sec7=============== */
+.section7{
+    padding-top:70px ;
+    background-color: rgb(255, 68, 0);
+    color: white;   
+    padding-bottom: 70px;
+}
+.section7 .img{
+    transition: all 1s;
+    border-radius: 40%;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.section7 .img:hover{
+    background-color: white;
+
+}
